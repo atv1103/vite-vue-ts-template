@@ -16,6 +16,8 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "types": ["vite/client"],
 
     /* Linting */
     "strict": true,
