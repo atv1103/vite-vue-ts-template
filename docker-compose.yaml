@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   app:
     # container_name: name
@@ -7,8 +9,6 @@ services:
       - ./:/app
       - /app/node_modules/
     ports:
-      # - "5173:3000"
       - "3000:3000"
     expose:
-      # - "5173"
       - "3000"
